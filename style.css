@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cssForFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topLine {
+    width: 100%;
+    height: 50px;
+    background-color: #60267F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+}
+
+.topLinePara {
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.learnMore {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 30px;
+    border-bottom: 2px solid rgba(220, 220, 220, 0.3);
+}
+
+.headerContainer img {
+    width: 100px;
+}
+
+.navigationContainer nav  {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigationContainer nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navigationContainer nav ul li {
+    list-style: none;
+}
+
+.navigationContainer nav ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.headerButton {
+    border: none;
+    background-color: transparent;
+    border: 1px solid #9A54BC;
+    color: #9A54BC;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.headerButton:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+.topSection {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.topSectionHeader {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    color:#2B0236
+}
+
+.topSectioButton {
+    background-color: #9A54BC;
+    padding: 10px 15px;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.topSectioButton:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
+.elipsesContainer {
+    position: relative;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.smallElipse {
+    top: 130px;
+    position: absolute;
+}
+
+.collab {
+    top: 240px;
+    position: absolute;
+}
+
+.rectangle {
+    top: 135px
+}
+
+.elipseBtn {
+    bottom: 80px;
+    position: absolute;
+    padding: 7px 9px;
+    font-size: 12px;
+    background-color: white;
+    border: 1.5px solid #9A54BC;
+    border-radius: 3px;
+    color: #60267F;
+}
+
+.elipseBtn:hover {
+    background-color: #9A54BC;
+    color: white;
+    cursor: pointer;
+}
+
+.iconsContainer {
+    gap: 50px;
+}
+
+.icons {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bigPhoneContainer {
+    gap: 2rem;
+    margin-top: 100px;
+
+}
+
+.vendorAppAndPhoneContainer {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.paragraphBtnContainer {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.26);
+        -webkit-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.26);
+        -moz-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.26);
+}
+
+.paragraphBtnContainer > button {
+    width: 50%;
+    padding: 5px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.paragraphBtnContainer > button:hover {
+    border: #9A54BC 2px solid;
+    border-radius: 3px;
+    background-color: #60267F;
+    color: white;
+    cursor: pointer;
+}
+
+.paragraphContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vendorPara {
+    background-color: #F2F2F2;
+    width: 95%;
+    padding: 17px 15px;
+    font-size: 13px;
+}
+
+.vendorPara span {
+    font-weight: 600 ;
+    font-size: 12px;
+}
+
+.vendorAppPhone {
+    display: flex;
+    justify-content: center;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 150px;
+    padding: 30px;
+
+}
+
+.videoContainer p {
+    width: 75%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.smallCardsContainer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cardsContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.smallCard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.smallCard span {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.span1 {
+    color: #9A54BC;
+}
+
+.bigThreeCardsContainer {
+    margin-top: 75px;
+    gap: 15px;
+
+}
+
+.packageChoose {
+    color: #A79D9D;
+    font-size: 11px;
+
+}
+
+.discoutContainer {
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.monthly {
+    color: #A79D9D;
+    font-size: 11px;
+}
+
+.yearly {
+    color: #2B0236;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.discount {
+    background-color: #FFE87A;
+    border-radius: 1.76px;
+    border: 0.44px solid #FFE87A;
+    font-size: 7px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 4px;
+}
+
+.bigCardsContainer {
+    gap: 50px;
+    width: 50%;
+}
+
+
+
+.bigCard {
+    border: 0.44px solid #AAAAAA;
+    border-radius: 6px;
+    padding: 20px 25px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bigCardPara {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bigCard button {
+    font-weight: 700;
+    font-size: 12px;
+    color: #2B0236;
+    border: 2px solid #2B0236;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+.bigCardslist li {
+    padding-left: 10px ;
+    margin-left: 12px;
+}
+
+.bigCard p {
+    font-size: 12px;
+
+}
+
+.bigCardslist li::marker {
+    content: "▶";
+}
+
+.bigCard button:hover {
+    cursor: pointer;
+}
+
+.bigCard:last-child {
+    background-color: #56E6A5;
+}
+
+.stars-container {
+    margin-top: 150px;
+}
+
+.stars-container p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.arrow > p {
+    font-weight: 500;
+}
+
+.arrow {
+    justify-content: space-between;
+    gap: 160px;
+    margin: 65px 80px;
+    text-align: center;
+}
+
+.face {
+    width: 65px;
+}
+
+.faces {
+    margin-top: 100px;
+}
+
+.faces > div > p {
+    text-align: center;
+    width: 60%;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+.faces > div > button {
+    padding: 8px 16px;
+    background-color: #9A54BC;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.faces > div > button:hover {
+    border: 2px solid #9A54BC;
+    cursor: pointer;
+    background-color: white;
+    color: #9A54BC;
+}
+
+.vector {
+    position: relative;
+}
+
+.vector > img {
+    width: 960px;
+}
+
+.face1 {
+    position: absolute;
+    top: -32px;
+    left: -32px;
+    z-index: 1;
+    width: 80px;
+}
+
+.face2 {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    z-index: 1;
+    width: 80px;
+}
+
+.face3 {
+    position: absolute;
+    top: 100px;
+    left: 256px;
+    z-index: 1;
+    width: 80px;
+}
+
+.face4 {
+    position: absolute;
+    top: 160px;
+    left: 370px;
+    z-index: 1;
+    width: 80px;
+}
+
+.face5 {
+    position: absolute;
+    top: 176px;
+    left: 560px;
+    z-index: 1;
+    width: 80px;
+}
+
+.face6 {
+    position: absolute;
+    top: 160px;
+    left: 705px;
+    z-index: 1;
+    width: 80px;
+}
+
+.face7 {
+    position: absolute;
+    top: 160px;
+    left: 865px;
+    z-index: 1;
+    width: 80px;
+}
+
+.face8 {
+    position: absolute;
+    top: 80px;
+    left: 912px;
+    z-index: 1;
+    width: 80px;
+}
+
+.you {
+    position: absolute;
+    top: 60px;
+    left: 800px;
+    z-index: 1;
+    width: 80px;
+    color: #9A54BC;
+    font-weight: 500;
+}
+
+.three-btn-container {
+    margin-top: 48px;
+    background-color: #9A54BC;
+    height: 340px;
+}
+
+.three-btn-container > p {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+.three-btn {
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.three-btn > button {
+    padding: 14px 24px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #9A54BC;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.three-btn>button:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
+.map-container {
+    background-color: #E2BDF21C;
+}
+
+.map-container > div {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 400px;
+}
+
+.map-contacts {
+    gap: 32px;
+    margin-left: 240px;
+}
+
+.map-contacts > p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.map {
+    margin-left: 32px;
+}
+
+.footerContainerfirst {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 130px;
+}
+
+.cflex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 45px;
+}
+
+.collabSection {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.textCollabfollow {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.collabIcon {
+    width: 100px;
+}
+
+.company span {
+    font-weight: 600;
+}
+
+.resources span {
+    font-weight: 600;
+}
+
+.legal span {
+    font-weight: 600;
+}
+
+.company a {
+    text-decoration: none;
+    color: #60267F;
+    font-size: 14px;
+}
+
+.resources a {
+    text-decoration: none;
+    color: #60267F;
+    font-size: 14px;
+}
+
+.legal a {
+    text-decoration: none;
+    color: #60267F;
+    font-size: 14px;
+}
+
+.iconslist {
+    display: flex;
+    gap: 20px;
+}
+
+.contactUs {
+    margin-left: 690px;
+}
+
+.contactUsspan1 {
+    font-weight: 600;
+}
+
+.contactUsspan2 {
+    color: #60267F;
+    font-size: 14px;
+}
+
+.footerContainersecond {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #9A54BC;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
